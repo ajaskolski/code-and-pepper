@@ -1,0 +1,8 @@
+{
+  "video": false,
+  "baseUrl": "https://www.thetestroom.com/webapp/",
+  "testFiles": "**/*.spec.js",
+  "videoUploadOnPasses": false,
+  "fixturesFolder": false,
+  "pluginsFile": false
+}

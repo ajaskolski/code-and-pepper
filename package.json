@@ -1,0 +1,32 @@
+{
+  "name": "code-and-pepper",
+  "version": "1.0.0",
+  "description": "code and pepper task",
+  "main": "index.js",
+  "scripts": {
+    "cy:r": "cypress run",
+    "cy:o": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaskolski/code-and-pepper.git"
+  },
+  "author": "Adrian Jaskólski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaskolski/code-and-pepper/issues"
+  },
+  "homepage": "https://github.com/ajaskolski/code-and-pepper#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^4.3.0",
+    "cypress": "^5.2.0",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-recommended": "^4.1.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "faker": "^5.1.0",
+    "prettier": "2.1.1"
+  }
+}

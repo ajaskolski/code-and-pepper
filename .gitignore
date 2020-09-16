@@ -1,0 +1,26 @@
+# Ignore coverage reports
+/coverage
+
+.idea
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# misc
+.DS_Store
+
+#envs
+.env
+
+# cypress
+cypress/screenshots
+cypress/videos
+cypress/fixtures
+cypress/plugins
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
