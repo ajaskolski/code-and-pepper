@@ -1,3 +1,4 @@
 import { NavigationMenu } from './NavigationMenu';
+import { Form } from './Form';
 
-export { NavigationMenu };
+export { NavigationMenu, Form };

@@ -6,5 +6,5 @@ export const createUserData = (gender) => {
         address: faker.address.streetName(),
         postcode: faker.address.zipCode(),
         email: faker.internet.email(),
-    }
+    };
 };

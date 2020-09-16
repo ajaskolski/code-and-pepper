@@ -6,11 +6,9 @@ export const Adoption = {
         firstMonth: 'fMonth',
     },
     selectDateOfAdoption(option) {
-        cy.get('#start_select')
-            .select(option)
-            .should('have.value', option)
+        cy.get('#start_select').select(option).should('have.value', option);
     },
-   clickButtonCheckDependsOnAvailbility(isAvailable){
-       cy.get(`input[available=${isAvailable}]`).click()
-   }
+    clickButtonCheckDependsOnAvailbility(isAvailable) {
+        cy.get(`input[available=${isAvailable}]`).click();
+    },
 };
