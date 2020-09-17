@@ -13,7 +13,6 @@ export const Contact = {
         cy.get('#cadop').click();
     },
     verifyAlertForMissingData(missingFieldName) {
-        this.clickButtonSendMessage();
         cy.on('window:alert', (txt) => {
             expect(txt).to.contains(`${missingFieldName} field is empty`);
         });
